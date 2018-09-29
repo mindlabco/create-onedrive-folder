@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "create-onedrive-folder",
+    "libraryId": "99a536dc-d6f0-4a2a-8760-f34e78aed13a",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

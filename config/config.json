@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "create-one-drive-folder-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/createOneDriveFolder/CreateOneDriveFolderWebPart.js",
+          "manifest": "./src/webparts/createOneDriveFolder/CreateOneDriveFolderWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CreateOneDriveFolderWebPartStrings": "lib/webparts/createOneDriveFolder/loc/{locale}.js"
+  }
+}
